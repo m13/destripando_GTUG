@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_24 (Sun Microsystems Inc.)
+
+Name: res/layout/main.xml
+SHA1-Digest: PHyPNPw/8enZEKkXNftuGImmKsE=
+
+Name: assets/rageagainstthecage
+SHA1-Digest: vEG4Kug2YZBtdEW1z0UfIfJ4hGo=
+
+Name: AndroidManifest.xml
+SHA1-Digest: xzovC2Skxg7khNjypgTMwZCvqQk=
+
+Name: assets/profile
+SHA1-Digest: 0arxaeZl/rbGMuIVsOAlKjYM9iM=
+
+Name: res/drawable/icon.png
+SHA1-Digest: 7xizMYuoK0G55atqZU5G+9iBNGs=
+
+Name: assets/exploid
+SHA1-Digest: jWc9skgVsZJMT7/48gTDDnVw1MI=
+
+Name: res/drawable/minispiral.png
+SHA1-Digest: slUCqLpiifmw4twxrIW1D+1WGy4=
+
+Name: resources.arsc
+SHA1-Digest: kzY90cUHN/51pqqOKQV+3pUZXRs=
+
+Name: lib/armeabi/libandroidterm.so
+SHA1-Digest: boKc/igTERB40iHeq3AWjVQfegE=
+
+Name: classes.dex
+SHA1-Digest: kqv6DjGsBfwH38BsXQ2XSZXAtFU=
+
+Name: assets/sqlite.db
+SHA1-Digest: 2vso5iCHHXDu49S9uUyn03cxvUg=
+

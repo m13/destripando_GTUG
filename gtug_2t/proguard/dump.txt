@@ -1,0 +1,514 @@
+_____________________________________________________________________
++ Program class: gtug/second/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class gtug.second.a extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 88):
+  - String [/stack.log]
+  - Class [android/app/Dialog]
+  - Class [android/os/Environment]
+  - Class [android/util/Log]
+  - Class [android/view/View]
+  - Class [android/view/View$OnClickListener]
+  - Class [gtug/second/Main]
+  - Class [gtug/second/a]
+  - Class [java/io/File]
+  - Class [java/io/FileNotFoundException]
+  - Class [java/io/PrintWriter]
+  - Class [java/lang/Exception]
+  - Class [java/lang/Object]
+  - Class [java/lang/StringBuilder]
+  - Fieldref [gtug/second/a.a Lgtug/second/Main;]
+  - Methodref [android/app/Dialog.cancel ()V]
+  - Methodref [android/os/Environment.getExternalStorageDirectory ()Ljava/io/File;]
+  - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  - Methodref [gtug/second/Main.a (Lgtug/second/Main;)Landroid/app/Dialog;]
+  - Methodref [gtug/second/Main.getString (I)Ljava/lang/String;]
+  - Methodref [java/io/File.<init> (Ljava/lang/String;)V]
+  - Methodref [java/io/FileNotFoundException.printStackTrace ()V]
+  - Methodref [java/io/PrintWriter.<init> (Ljava/io/File;)V]
+  - Methodref [java/io/PrintWriter.close ()V]
+  - Methodref [java/lang/Exception.printStackTrace ()V]
+  - Methodref [java/lang/Exception.printStackTrace (Ljava/io/PrintWriter;)V]
+  - Methodref [java/lang/Object.<init> ()V]
+  - Methodref [java/lang/StringBuilder.<init> ()V]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/io/File;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a (Lgtug/second/Main;)Landroid/app/Dialog;]
+  + NameAndType [a Lgtug/second/Main;]
+  + NameAndType [append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [cancel ()V]
+  + NameAndType [close ()V]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [getExternalStorageDirectory ()Ljava/io/File;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [printStackTrace (Ljava/io/PrintWriter;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Ljava/io/File;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lgtug/second/Main;)Landroid/app/Dialog;]
+  + Utf8 [(Lgtug/second/Main;)V]
+  + Utf8 [(Ljava/io/File;)V]
+  + Utf8 [(Ljava/io/PrintWriter;)V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [/stack.log]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lgtug/second/Main;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Dialog]
+  + Utf8 [android/os/Environment]
+  + Utf8 [android/util/Log]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [append]
+  + Utf8 [cancel]
+  + Utf8 [close]
+  + Utf8 [d]
+  + Utf8 [getExternalStorageDirectory]
+  + Utf8 [getString]
+  + Utf8 [gtug/second/Main]
+  + Utf8 [gtug/second/a]
+  + Utf8 [java/io/File]
+  + Utf8 [java/io/FileNotFoundException]
+  + Utf8 [java/io/PrintWriter]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [onClick]
+  + Utf8 [printStackTrace]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Lgtug/second/Main;
+    Access flags: 0x1002
+      = private gtug.second.Main a
+
+Methods (count = 2):
+  - Method:       <init>(Lgtug/second/Main;)V
+    Access flags: 0x0
+      = a(gtug.second.Main)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #15
+        - Fieldref [gtug/second/a.a Lgtug/second/Main;]
+      [5] aload_0 v0
+      [6] invokespecial #27
+        - Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x11
+      = public final void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 85, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] getfield #15
+        - Fieldref [gtug/second/a.a Lgtug/second/Main;]
+      [4] iconst_m1
+      [5] invokevirtual #20
+        - Methodref [gtug/second/Main.getString (I)Ljava/lang/String;]
+      [8] dup
+      [9] invokestatic #18
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [12] pop
+      [13] goto +61 (target=74)
+      [16] astore_1 v1
+      [17] aload_1 v1
+      [18] invokevirtual #25
+        - Methodref [java/lang/Exception.printStackTrace ()V]
+      [21] new #14
+        - Class [java/lang/StringBuilder]
+      [24] dup
+      [25] invokespecial #28
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [28] invokestatic #17
+        - Methodref [android/os/Environment.getExternalStorageDirectory ()Ljava/io/File;]
+      [31] invokevirtual #29
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+      [34] ldc #1
+        - String [/stack.log]
+      [36] invokevirtual #30
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [39] invokevirtual #31
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [42] astore_2 v2
+      [43] new #11
+        - Class [java/io/PrintWriter]
+      [46] dup
+      [47] new #9
+        - Class [java/io/File]
+      [50] dup
+      [51] aload_2 v2
+      [52] invokespecial #21
+        - Methodref [java/io/File.<init> (Ljava/lang/String;)V]
+      [55] invokespecial #23
+        - Methodref [java/io/PrintWriter.<init> (Ljava/io/File;)V]
+      [58] astore_2 v2
+      [59] aload_1 v1
+      [60] aload_2 v2
+      [61] invokevirtual #26
+        - Methodref [java/lang/Exception.printStackTrace (Ljava/io/PrintWriter;)V]
+      [64] aload_2 v2
+      [65] invokevirtual #24
+        - Methodref [java/io/PrintWriter.close ()V]
+      [68] goto +6 (target=74)
+      [71] invokevirtual #22
+        - Methodref [java/io/FileNotFoundException.printStackTrace ()V]
+      [74] aload_0 v0
+      [75] getfield #15
+        - Fieldref [gtug/second/a.a Lgtug/second/Main;]
+      [78] invokestatic #19
+        - Methodref [gtug/second/Main.a (Lgtug/second/Main;)Landroid/app/Dialog;]
+      [81] invokevirtual #16
+        - Methodref [android/app/Dialog.cancel ()V]
+      [84] return
+      Code attribute exceptions (count = 2):
+      - ExceptionInfo (0 -> 13: 16):
+      - Class [java/lang/Exception]
+      - ExceptionInfo (17 -> 68: 71):
+      - Class [java/io/FileNotFoundException]
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 3):
+        - [16] Var: ..., Stack: [a:java/lang/Exception]
+        - [71] Var: [a:gtug/second/a][a:android/view/View][a:java/lang/Exception], Stack: [a:java/io/FileNotFoundException]
+        - [74] Var: -1, Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: gtug/second/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class gtug.second.b extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 31):
+  - Class [android/app/Dialog]
+  - Class [android/view/View]
+  - Class [android/view/View$OnClickListener]
+  - Class [gtug/second/Main]
+  - Class [gtug/second/b]
+  - Class [java/lang/Object]
+  - Fieldref [gtug/second/b.a Lgtug/second/Main;]
+  - Methodref [android/app/Dialog.cancel ()V]
+  - Methodref [gtug/second/Main.a (Lgtug/second/Main;)Landroid/app/Dialog;]
+  - Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lgtug/second/Main;)Landroid/app/Dialog;]
+  + NameAndType [a Lgtug/second/Main;]
+  + NameAndType [cancel ()V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lgtug/second/Main;)Landroid/app/Dialog;]
+  + Utf8 [(Lgtug/second/Main;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lgtug/second/Main;]
+  + Utf8 [a]
+  + Utf8 [android/app/Dialog]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [cancel]
+  + Utf8 [gtug/second/Main]
+  + Utf8 [gtug/second/b]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lgtug/second/Main;
+    Access flags: 0x1002
+      = private gtug.second.Main a
+
+Methods (count = 2):
+  - Method:       <init>(Lgtug/second/Main;)V
+    Access flags: 0x0
+      = b(gtug.second.Main)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        - Fieldref [gtug/second/b.a Lgtug/second/Main;]
+      [5] aload_0 v0
+      [6] invokespecial #10
+        - Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x11
+      = public final void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 2, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #7
+        - Fieldref [gtug/second/b.a Lgtug/second/Main;]
+      [4] invokestatic #9
+        - Methodref [gtug/second/Main.a (Lgtug/second/Main;)Landroid/app/Dialog;]
+      [7] invokevirtual #8
+        - Methodref [android/app/Dialog.cancel ()V]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: gtug/second/Main
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class gtug.second.Main extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 85):
+  - Integer [2130903040]
+  - Integer [2130903041]
+  - Integer [2130968578]
+  - Integer [2130968581]
+  - Integer [2131034113]
+  - Integer [2131034114]
+  - Integer [2131034115]
+  - Class [android/app/Activity]
+  - Class [android/app/Dialog]
+  - Class [android/view/View]
+  - Class [android/view/View$OnClickListener]
+  - Class [android/webkit/WebSettings]
+  - Class [android/webkit/WebView]
+  - Class [android/widget/Button]
+  - Class [gtug/second/Main]
+  - Class [gtug/second/a]
+  - Class [gtug/second/b]
+  - Fieldref [gtug/second/Main.a Landroid/app/Dialog;]
+  - Methodref [android/app/Activity.<init> ()V]
+  - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  - Methodref [android/app/Dialog.<init> (Landroid/content/Context;)V]
+  - Methodref [android/app/Dialog.findViewById (I)Landroid/view/View;]
+  - Methodref [android/app/Dialog.setContentView (I)V]
+  - Methodref [android/app/Dialog.setTitle (I)V]
+  - Methodref [android/app/Dialog.show ()V]
+  - Methodref [android/webkit/WebSettings.setJavaScriptEnabled (Z)V]
+  - Methodref [android/webkit/WebView.getSettings ()Landroid/webkit/WebSettings;]
+  - Methodref [android/webkit/WebView.loadUrl (Ljava/lang/String;)V]
+  - Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  - Methodref [gtug/second/Main.findViewById (I)Landroid/view/View;]
+  - Methodref [gtug/second/Main.getString (I)Ljava/lang/String;]
+  - Methodref [gtug/second/Main.setContentView (I)V]
+  - Methodref [gtug/second/a.<init> (Lgtug/second/Main;)V]
+  - Methodref [gtug/second/b.<init> (Lgtug/second/Main;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Lgtug/second/Main;)V]
+  + NameAndType [a Landroid/app/Dialog;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getSettings ()Landroid/webkit/WebSettings;]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [loadUrl (Ljava/lang/String;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setJavaScriptEnabled (Z)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [setTitle (I)V]
+  + NameAndType [show ()V]
+  + Utf8 [()Landroid/webkit/WebSettings;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lgtug/second/Main;)Landroid/app/Dialog;]
+  + Utf8 [(Lgtug/second/Main;)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/app/Dialog;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/app/Dialog]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/webkit/WebSettings]
+  + Utf8 [android/webkit/WebView]
+  + Utf8 [android/widget/Button]
+  + Utf8 [findViewById]
+  + Utf8 [getSettings]
+  + Utf8 [getString]
+  + Utf8 [gtug/second/Main]
+  + Utf8 [gtug/second/a]
+  + Utf8 [gtug/second/b]
+  + Utf8 [loadUrl]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [setJavaScriptEnabled]
+  + Utf8 [setOnClickListener]
+  + Utf8 [setTitle]
+  + Utf8 [show]
+
+Fields (count = 1):
+  + Field:        a Landroid/app/Dialog;
+    Access flags: 0x2
+      = private android.app.Dialog a
+
+Methods (count = 3):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Main()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #19
+        - Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 127, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #20
+        - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #2
+        - Integer [2130903041]
+      [8] invokevirtual #32
+        - Methodref [gtug/second/Main.setContentView (I)V]
+      [11] aload_0 v0
+      [12] dup
+      [13] astore_1 v1
+      [14] ldc #7
+        - Integer [2131034115]
+      [16] invokevirtual #30
+        - Methodref [gtug/second/Main.findViewById (I)Landroid/view/View;]
+      [19] checkcast #13
+        - Class [android/webkit/WebView]
+      [22] dup
+      [23] astore_2 v2
+      [24] invokevirtual #27
+        - Methodref [android/webkit/WebView.getSettings ()Landroid/webkit/WebSettings;]
+      [27] iconst_1
+      [28] invokevirtual #26
+        - Methodref [android/webkit/WebSettings.setJavaScriptEnabled (Z)V]
+      [31] aload_2 v2
+      [32] aload_1 v1
+      [33] ldc #3
+        - Integer [2130968578]
+      [35] invokevirtual #31
+        - Methodref [gtug/second/Main.getString (I)Ljava/lang/String;]
+      [38] invokevirtual #28
+        - Methodref [android/webkit/WebView.loadUrl (Ljava/lang/String;)V]
+      [41] aload_0 v0
+      [42] dup
+      [43] astore_1 v1
+      [44] new #9
+        - Class [android/app/Dialog]
+      [47] dup
+      [48] aload_1 v1
+      [49] invokespecial #21
+        - Methodref [android/app/Dialog.<init> (Landroid/content/Context;)V]
+      [52] putfield #18
+        - Fieldref [gtug/second/Main.a Landroid/app/Dialog;]
+      [55] aload_1 v1
+      [56] getfield #18
+        - Fieldref [gtug/second/Main.a Landroid/app/Dialog;]
+      [59] ldc #1
+        - Integer [2130903040]
+      [61] invokevirtual #23
+        - Methodref [android/app/Dialog.setContentView (I)V]
+      [64] aload_1 v1
+      [65] getfield #18
+        - Fieldref [gtug/second/Main.a Landroid/app/Dialog;]
+      [68] ldc #4
+        - Integer [2130968581]
+      [70] invokevirtual #24
+        - Methodref [android/app/Dialog.setTitle (I)V]
+      [73] aload_1 v1
+      [74] getfield #18
+        - Fieldref [gtug/second/Main.a Landroid/app/Dialog;]
+      [77] ldc #5
+        - Integer [2131034113]
+      [79] invokevirtual #22
+        - Methodref [android/app/Dialog.findViewById (I)Landroid/view/View;]
+      [82] checkcast #14
+        - Class [android/widget/Button]
+      [85] new #17
+        - Class [gtug/second/b]
+      [88] dup
+      [89] aload_1 v1
+      [90] invokespecial #34
+        - Methodref [gtug/second/b.<init> (Lgtug/second/Main;)V]
+      [93] invokevirtual #29
+        - Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [96] aload_1 v1
+      [97] getfield #18
+        - Fieldref [gtug/second/Main.a Landroid/app/Dialog;]
+      [100] ldc #6
+        - Integer [2131034114]
+      [102] invokevirtual #22
+        - Methodref [android/app/Dialog.findViewById (I)Landroid/view/View;]
+      [105] checkcast #14
+        - Class [android/widget/Button]
+      [108] new #16
+        - Class [gtug/second/a]
+      [111] dup
+      [112] aload_1 v1
+      [113] invokespecial #33
+        - Methodref [gtug/second/a.<init> (Lgtug/second/Main;)V]
+      [116] invokevirtual #29
+        - Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [119] aload_1 v1
+      [120] getfield #18
+        - Fieldref [gtug/second/Main.a Landroid/app/Dialog;]
+      [123] invokevirtual #25
+        - Methodref [android/app/Dialog.show ()V]
+      [126] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lgtug/second/Main;)Landroid/app/Dialog;
+    Access flags: 0x1008
+      = static android.app.Dialog a(gtug.second.Main)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #18
+        - Fieldref [gtug/second/Main.a Landroid/app/Dialog;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

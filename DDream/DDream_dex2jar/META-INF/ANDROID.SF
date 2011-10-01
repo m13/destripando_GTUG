@@ -1,0 +1,38 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: FH88fofV9FfCmXPWKG7PQGc0Qkw=
+Created-By: 1.6.0_24 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: 3BXsmni2sLjq639ftGCxlPW5wbg=
+
+Name: assets/rageagainstthecage
+SHA1-Digest: yL4hN0drO5xcaSLlVPcdDlpEdsQ=
+
+Name: res/layout/main.xml
+SHA1-Digest: fZNrkIOltWfawSZYyx0TwgUcmvo=
+
+Name: AndroidManifest.xml
+SHA1-Digest: HwTxgIMslUHGicC1eeSiR3ZJHNw=
+
+Name: assets/profile
+SHA1-Digest: mDih1zyUg6u4SBlbU5RXN155TGg=
+
+Name: assets/exploid
+SHA1-Digest: v8TV2WF3eMqsdwLwkzwvtoj5Vyo=
+
+Name: res/drawable/icon.png
+SHA1-Digest: NAUI3YaI7ly38ZWzD3jUsxPxI+4=
+
+Name: res/drawable/minispiral.png
+SHA1-Digest: aSwbq/TETZkXWpWzkDId0BLCrPE=
+
+Name: lib/armeabi/libandroidterm.so
+SHA1-Digest: kH9e6X3gJqVjPTIEIeylJgCw424=
+
+Name: resources.arsc
+SHA1-Digest: KWtrzsoFCPZnXJd5GPpnt5BxRJo=
+
+Name: assets/sqlite.db
+SHA1-Digest: gHFOAGO6VjLz8dBisG5cIAhln2g=
+
+Name: classes.dex
+SHA1-Digest: Hc3nVv4eoWlaiJYbKLm95NEouMg=
+

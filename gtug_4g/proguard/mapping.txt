@@ -1,0 +1,20 @@
+gtug.fourth.CtrlAuth -> gtug.fourth.a:
+    gtug.fourth.CtrlAuth INSTANCE -> d
+    java.lang.String auth -> a
+    java.lang.Integer secretNum -> b
+    android.content.Context context -> c
+    gtug.fourth.CtrlAuth getInstance() -> a
+gtug.fourth.Error -> gtug.fourth.Error:
+    void onCreate(android.os.Bundle) -> onCreate
+gtug.fourth.Main -> gtug.fourth.Main:
+    void onCreate(android.os.Bundle) -> onCreate
+gtug.fourth.Main$1 -> gtug.fourth.c:
+    gtug.fourth.Main this$0 -> a
+    void onClick(android.view.View) -> onClick
+gtug.fourth.Main$2 -> gtug.fourth.b:
+    gtug.fourth.Main this$0 -> a
+    void onClick(android.view.View) -> onClick
+gtug.fourth.SmsReceiver -> gtug.fourth.SmsReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+gtug.fourth.Yeah -> gtug.fourth.Yeah:
+    void onCreate(android.os.Bundle) -> onCreate

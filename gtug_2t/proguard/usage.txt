@@ -1,0 +1,6 @@
+gtug.second.R
+gtug.second.R$attr
+gtug.second.R$drawable
+gtug.second.R$id
+gtug.second.R$layout
+gtug.second.R$string

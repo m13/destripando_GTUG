@@ -1,0 +1,9 @@
+gtug.third.DatabaseHelper:
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+gtug.third.R
+gtug.third.R$attr
+gtug.third.R$drawable
+gtug.third.R$id
+gtug.third.R$layout
+gtug.third.R$string

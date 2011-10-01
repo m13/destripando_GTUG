@@ -1,0 +1,10 @@
+gtug.second.Main -> gtug.second.Main:
+    android.app.Dialog dialog -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    android.app.Dialog access$0(gtug.second.Main) -> a
+gtug.second.Main$1 -> gtug.second.b:
+    gtug.second.Main this$0 -> a
+    void onClick(android.view.View) -> onClick
+gtug.second.Main$2 -> gtug.second.a:
+    gtug.second.Main this$0 -> a
+    void onClick(android.view.View) -> onClick

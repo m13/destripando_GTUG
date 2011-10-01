@@ -1,0 +1,1234 @@
+_____________________________________________________________________
++ Program class: gtug/fourth/Yeah
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class gtug.fourth.Yeah extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 19):
+  - Integer [2130903042]
+  - Class [android/app/Activity]
+  - Class [gtug/fourth/Yeah]
+  - Methodref [android/app/Activity.<init> ()V]
+  - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  - Methodref [gtug/fourth/Yeah.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [gtug/fourth/Yeah]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Yeah()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        - Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #5
+        - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        - Integer [2130903042]
+      [8] invokevirtual #6
+        - Methodref [gtug/fourth/Yeah.setContentView (I)V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: gtug/fourth/SmsReceiver
+  Superclass:    android/content/BroadcastReceiver
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class gtug.fourth.SmsReceiver extends android.content.BroadcastReceiver
+
+Interfaces (count = 0):
+
+Constant Pool (count = 145):
+  - Integer [268435456]
+  - String [ ]
+  - String [123456789]
+  - String [Fernando Cejas]
+  - String [I am here]
+  - String [body]
+  - String [pdus]
+  - String [¡Bienvenido! :-D]
+  - String [¡El número no pertenece a ningún administrador!]
+  - String [¡El número secreto no es el correcto! ¡Es un valor del 0 al 100!]
+  - Class [[B]
+  - Class [[Landroid/telephony/SmsMessage;]
+  - Class [[Ljava/lang/Object;]
+  - Class [android/content/BroadcastReceiver]
+  - Class [android/content/Context]
+  - Class [android/content/Intent]
+  - Class [android/os/Bundle]
+  - Class [android/telephony/SmsMessage]
+  - Class [android/util/Log]
+  - Class [android/widget/Toast]
+  - Class [gtug/fourth/SmsReceiver]
+  - Class [gtug/fourth/Yeah]
+  - Class [gtug/fourth/a]
+  - Class [java/lang/Integer]
+  - Class [java/lang/String]
+  - Class [java/lang/StringBuilder]
+  - Fieldref [gtug/fourth/a.a Ljava/lang/String;]
+  - Fieldref [gtug/fourth/a.b Ljava/lang/Integer;]
+  - Fieldref [gtug/fourth/a.c Landroid/content/Context;]
+  - Methodref [android/content/BroadcastReceiver.<init> ()V]
+  - Methodref [android/content/Context.startActivity (Landroid/content/Intent;)V]
+  - Methodref [android/content/Intent.<init> ()V]
+  - Methodref [android/content/Intent.addFlags (I)Landroid/content/Intent;]
+  - Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
+  - Methodref [android/content/Intent.setClass (Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+  - Methodref [android/os/Bundle.get (Ljava/lang/String;)Ljava/lang/Object;]
+  - Methodref [android/telephony/SmsMessage.createFromPdu ([B)Landroid/telephony/SmsMessage;]
+  - Methodref [android/telephony/SmsMessage.getMessageBody ()Ljava/lang/String;]
+  - Methodref [android/telephony/SmsMessage.getOriginatingAddress ()Ljava/lang/String;]
+  - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  - Methodref [android/widget/Toast.show ()V]
+  - Methodref [gtug/fourth/SmsReceiver.abortBroadcast ()V]
+  - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+  - Methodref [java/lang/Integer.toString ()Ljava/lang/String;]
+  - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  - Methodref [java/lang/String.toString ()Ljava/lang/String;]
+  - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  - Methodref [java/lang/StringBuilder.<init> ()V]
+  - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a ()Lgtug/fourth/a;]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [abortBroadcast ()V]
+  + NameAndType [addFlags (I)Landroid/content/Intent;]
+  + NameAndType [append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b Ljava/lang/Integer;]
+  + NameAndType [c Landroid/content/Context;]
+  + NameAndType [createFromPdu ([B)Landroid/telephony/SmsMessage;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [get (Ljava/lang/String;)Ljava/lang/Object;]
+  + NameAndType [getExtras ()Landroid/os/Bundle;]
+  + NameAndType [getMessageBody ()Ljava/lang/String;]
+  + NameAndType [getOriginatingAddress ()Ljava/lang/String;]
+  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + NameAndType [setClass (Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+  + NameAndType [show ()V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [ ]
+  + Utf8 [()Landroid/os/Bundle;]
+  + Utf8 [()Lgtug/fourth/a;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/content/Intent;]
+  + Utf8 [(Landroid/content/Context;Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [([B)Landroid/telephony/SmsMessage;]
+  + Utf8 [123456789]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Fernando Cejas]
+  + Utf8 [I am here]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Ljava/lang/Integer;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [StackMapTable]
+  + Utf8 [[B]
+  + Utf8 [[Landroid/telephony/SmsMessage;]
+  + Utf8 [[Ljava/lang/Object;]
+  + Utf8 [a]
+  + Utf8 [abortBroadcast]
+  + Utf8 [addFlags]
+  + Utf8 [android/content/BroadcastReceiver]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/os/Bundle]
+  + Utf8 [android/telephony/SmsMessage]
+  + Utf8 [android/util/Log]
+  + Utf8 [android/widget/Toast]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [body]
+  + Utf8 [c]
+  + Utf8 [createFromPdu]
+  + Utf8 [d]
+  + Utf8 [equals]
+  + Utf8 [get]
+  + Utf8 [getExtras]
+  + Utf8 [getMessageBody]
+  + Utf8 [getOriginatingAddress]
+  + Utf8 [gtug/fourth/SmsReceiver]
+  + Utf8 [gtug/fourth/Yeah]
+  + Utf8 [gtug/fourth/a]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [makeText]
+  + Utf8 [onReceive]
+  + Utf8 [pdus]
+  + Utf8 [setClass]
+  + Utf8 [show]
+  + Utf8 [startActivity]
+  + Utf8 [toString]
+  + Utf8 [valueOf]
+  + Utf8 [¡Bienvenido! :-D]
+  + Utf8 [¡El número no pertenece a ningún administrador!]
+  + Utf8 [¡El número secreto no es el correcto! ¡Es un valor del 0 al 100!]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public SmsReceiver()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #30
+        - Methodref [android/content/BroadcastReceiver.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    Access flags: 0x1
+      = public void onReceive(android.content.Context,android.content.Intent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 295, locals = 6, stack = 5):
+      [0] invokestatic #44
+        - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+      [3] pop
+      [4] ldc #2
+        - String [ ]
+      [6] ldc #5
+        - String [I am here]
+      [8] invokestatic #40
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [11] pop
+      [12] aload_2 v2
+      [13] invokevirtual #34
+        - Methodref [android/content/Intent.getExtras ()Landroid/os/Bundle;]
+      [16] dup
+      [17] astore_2 v2
+      [18] ifnull +272 (target=290)
+      [21] aload_2 v2
+      [22] ldc #7
+        - String [pdus]
+      [24] invokevirtual #36
+        - Methodref [android/os/Bundle.get (Ljava/lang/String;)Ljava/lang/Object;]
+      [27] checkcast #13
+        - Class [[Ljava/lang/Object;]
+      [30] dup
+      [31] astore_3 v3
+      [32] arraylength
+      [33] anewarray #18
+        - Class [android/telephony/SmsMessage]
+      [36] astore_2 v2
+      [37] iconst_0
+      [38] istore v4
+      [40] goto +243 (target=283)
+      [43] aload_2 v2
+      [44] iload v4
+      [46] aload_3 v3
+      [47] iload v4
+      [49] aaload
+      [50] checkcast #11
+        - Class [[B]
+      [53] invokestatic #37
+        - Methodref [android/telephony/SmsMessage.createFromPdu ([B)Landroid/telephony/SmsMessage;]
+      [56] aastore
+      [57] ldc #6
+        - String [body]
+      [59] new #26
+        - Class [java/lang/StringBuilder]
+      [62] dup
+      [63] aload_2 v2
+      [64] iload v4
+      [66] aaload
+      [67] invokevirtual #39
+        - Methodref [android/telephony/SmsMessage.getOriginatingAddress ()Ljava/lang/String;]
+      [70] invokestatic #48
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [73] invokespecial #50
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [76] ldc #2
+        - String [ ]
+      [78] invokevirtual #52
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [81] invokevirtual #53
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [84] invokestatic #40
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [87] pop
+      [88] aload_2 v2
+      [89] iload v4
+      [91] aaload
+      [92] invokevirtual #39
+        - Methodref [android/telephony/SmsMessage.getOriginatingAddress ()Ljava/lang/String;]
+      [95] ldc #3
+        - String [123456789]
+      [97] invokevirtual #46
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [100] ifeq +170 (target=270)
+      [103] ldc #6
+        - String [body]
+      [105] new #26
+        - Class [java/lang/StringBuilder]
+      [108] dup
+      [109] aload_2 v2
+      [110] iload v4
+      [112] aaload
+      [113] invokevirtual #38
+        - Methodref [android/telephony/SmsMessage.getMessageBody ()Ljava/lang/String;]
+      [116] invokevirtual #47
+        - Methodref [java/lang/String.toString ()Ljava/lang/String;]
+      [119] invokestatic #48
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [122] invokespecial #50
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [125] ldc #2
+        - String [ ]
+      [127] invokevirtual #52
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [130] invokevirtual #53
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [133] invokestatic #40
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [136] pop
+      [137] ldc #6
+        - String [body]
+      [139] new #26
+        - Class [java/lang/StringBuilder]
+      [142] dup
+      [143] invokespecial #49
+        - Methodref [java/lang/StringBuilder.<init> ()V]
+      [146] invokestatic #44
+        - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+      [149] getfield #28
+        - Fieldref [gtug/fourth/a.b Ljava/lang/Integer;]
+      [152] invokevirtual #51
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/Object;)Ljava/lang/StringBuilder;]
+      [155] ldc #2
+        - String [ ]
+      [157] invokevirtual #52
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [160] invokevirtual #53
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [163] invokestatic #40
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [166] pop
+      [167] aload_2 v2
+      [168] iload v4
+      [170] aaload
+      [171] invokevirtual #38
+        - Methodref [android/telephony/SmsMessage.getMessageBody ()Ljava/lang/String;]
+      [174] invokevirtual #47
+        - Methodref [java/lang/String.toString ()Ljava/lang/String;]
+      [177] invokestatic #44
+        - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+      [180] getfield #28
+        - Fieldref [gtug/fourth/a.b Ljava/lang/Integer;]
+      [183] invokevirtual #45
+        - Methodref [java/lang/Integer.toString ()Ljava/lang/String;]
+      [186] invokevirtual #46
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [189] ifeq +68 (target=257)
+      [192] ldc #2
+        - String [ ]
+      [194] ldc #2
+        - String [ ]
+      [196] invokestatic #40
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [199] pop
+      [200] invokestatic #44
+        - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+      [203] ldc #4
+        - String [Fernando Cejas]
+      [205] putfield #27
+        - Fieldref [gtug/fourth/a.a Ljava/lang/String;]
+      [208] aload_1 v1
+      [209] ldc #8
+        - String [¡Bienvenido! :-D]
+      [211] iconst_1
+      [212] invokestatic #41
+        - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [215] invokevirtual #42
+        - Methodref [android/widget/Toast.show ()V]
+      [218] new #16
+        - Class [android/content/Intent]
+      [221] dup
+      [222] invokespecial #32
+        - Methodref [android/content/Intent.<init> ()V]
+      [225] dup
+      [226] astore v5
+      [228] invokestatic #44
+        - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+      [231] getfield #29
+        - Fieldref [gtug/fourth/a.c Landroid/content/Context;]
+      [234] ldc #22
+        - Class [gtug/fourth/Yeah]
+      [236] invokevirtual #35
+        - Methodref [android/content/Intent.setClass (Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+      [239] pop
+      [240] aload v5
+      [242] ldc #1
+        - Integer [268435456]
+      [244] invokevirtual #33
+        - Methodref [android/content/Intent.addFlags (I)Landroid/content/Intent;]
+      [247] pop
+      [248] aload_1 v1
+      [249] aload v5
+      [251] invokevirtual #31
+        - Methodref [android/content/Context.startActivity (Landroid/content/Intent;)V]
+      [254] goto +26 (target=280)
+      [257] aload_1 v1
+      [258] ldc #10
+        - String [¡El número secreto no es el correcto! ¡Es un valor del 0 al 100!]
+      [260] iconst_1
+      [261] invokestatic #41
+        - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [264] invokevirtual #42
+        - Methodref [android/widget/Toast.show ()V]
+      [267] goto +13 (target=280)
+      [270] aload_1 v1
+      [271] ldc #9
+        - String [¡El número no pertenece a ningún administrador!]
+      [273] iconst_1
+      [274] invokestatic #41
+        - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [277] invokevirtual #42
+        - Methodref [android/widget/Toast.show ()V]
+      [280] iinc v4, 1
+      [283] iload v4
+      [285] aload_2 v2
+      [286] arraylength
+      [287] ificmplt -244 (target=43)
+      [290] aload_0 v0
+      [291] invokevirtual #43
+        - Methodref [gtug/fourth/SmsReceiver.abortBroadcast ()V]
+      [294] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 7):
+        - [43] Var: [a:gtug/fourth/SmsReceiver][a:android/content/Context][a:android/content/Intent][a:android/os/Bundle][a:[Landroid/telephony/SmsMessage;][a:[Ljava/lang/Object;][i], Stack: 
+        - [257] Var: ..., Stack: (empty)
+        - [267] Var: ..., Stack: (empty)
+        - [270] Var: ..., Stack: (empty)
+        - [280] Var: ..., Stack: (empty)
+        - [283] Var: ..., Stack: (empty)
+        - [290] Var: -2, Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: gtug/fourth/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x31
+    = public final class gtug.fourth.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 36):
+  - String [test]
+  - Class [gtug/fourth/a]
+  - Class [java/lang/Integer]
+  - Class [java/lang/Object]
+  - Fieldref [gtug/fourth/a.a Ljava/lang/String;]
+  - Fieldref [gtug/fourth/a.b Ljava/lang/Integer;]
+  - Fieldref [gtug/fourth/a.d Lgtug/fourth/a;]
+  - Methodref [gtug/fourth/a.<init> ()V]
+  - Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  - Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [b Ljava/lang/Integer;]
+  + NameAndType [d Lgtug/fourth/a;]
+  + NameAndType [valueOf (I)Ljava/lang/Integer;]
+  + Utf8 [()Lgtug/fourth/a;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/Integer;]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Lgtug/fourth/a;]
+  + Utf8 [Ljava/lang/Integer;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [gtug/fourth/a]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [test]
+  + Utf8 [valueOf]
+
+Fields (count = 4):
+  + Field:        d Lgtug/fourth/a;
+    Access flags: 0xa
+      = private static gtug.fourth.a d
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String a
+  + Field:        b Ljava/lang/Integer;
+    Access flags: 0x1
+      = public java.lang.Integer b
+  + Field:        c Landroid/content/Context;
+    Access flags: 0x1
+      = public android.content.Context c
+
+Methods (count = 3):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 0, stack = 1):
+      [0] aconst_null
+      [1] putstatic #7
+        - Fieldref [gtug/fourth/a.d Lgtug/fourth/a;]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #10
+        - Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] ldc #1
+        - String [test]
+      [7] putfield #5
+        - Fieldref [gtug/fourth/a.a Ljava/lang/String;]
+      [10] aload_0 v0
+      [11] iconst_0
+      [12] invokestatic #9
+        - Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [15] putfield #6
+        - Fieldref [gtug/fourth/a.b Ljava/lang/Integer;]
+      [18] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Lgtug/fourth/a;
+    Access flags: 0x9
+      = public static gtug.fourth.a a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 0, stack = 2):
+      [0] getstatic #7
+        - Fieldref [gtug/fourth/a.d Lgtug/fourth/a;]
+      [3] ifnonnull +13 (target=16)
+      [6] new #2
+        - Class [gtug/fourth/a]
+      [9] dup
+      [10] invokespecial #8
+        - Methodref [gtug/fourth/a.<init> ()V]
+      [13] putstatic #7
+        - Fieldref [gtug/fourth/a.d Lgtug/fourth/a;]
+      [16] getstatic #7
+        - Fieldref [gtug/fourth/a.d Lgtug/fourth/a;]
+      [19] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [16] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: gtug/fourth/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class gtug.fourth.b extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 26):
+  - Class [android/view/View]
+  - Class [android/view/View$OnClickListener]
+  - Class [gtug/fourth/Main]
+  - Class [gtug/fourth/b]
+  - Class [java/lang/Object]
+  - Fieldref [gtug/fourth/b.a Lgtug/fourth/Main;]
+  - Methodref [gtug/fourth/Main.finish ()V]
+  - Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lgtug/fourth/Main;]
+  + NameAndType [finish ()V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lgtug/fourth/Main;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lgtug/fourth/Main;]
+  + Utf8 [a]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [finish]
+  + Utf8 [gtug/fourth/Main]
+  + Utf8 [gtug/fourth/b]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lgtug/fourth/Main;
+    Access flags: 0x1002
+      = private gtug.fourth.Main a
+
+Methods (count = 2):
+  - Method:       <init>(Lgtug/fourth/Main;)V
+    Access flags: 0x0
+      = b(gtug.fourth.Main)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #6
+        - Fieldref [gtug/fourth/b.a Lgtug/fourth/Main;]
+      [5] aload_0 v0
+      [6] invokespecial #8
+        - Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x11
+      = public final void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 2, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #6
+        - Fieldref [gtug/fourth/b.a Lgtug/fourth/Main;]
+      [4] invokevirtual #7
+        - Methodref [gtug/fourth/Main.finish ()V]
+      [7] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: gtug/fourth/Error
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class gtug.fourth.Error extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 19):
+  - Integer [2130903040]
+  - Class [android/app/Activity]
+  - Class [gtug/fourth/Error]
+  - Methodref [android/app/Activity.<init> ()V]
+  - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  - Methodref [gtug/fourth/Error.setContentView (I)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [android/app/Activity]
+  + Utf8 [gtug/fourth/Error]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Error()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #4
+        - Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #5
+        - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        - Integer [2130903040]
+      [8] invokevirtual #6
+        - Methodref [gtug/fourth/Error.setContentView (I)V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: gtug/fourth/c
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x30
+    = final class gtug.fourth.c extends java.lang.Object
+
+Interfaces (count = 1):
+  - Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 52):
+  - Integer [2131099652]
+  - String [¡En breve recibiras un SMS de comprobación con un código númerico!]
+  - Class [android/view/View]
+  - Class [android/view/View$OnClickListener]
+  - Class [android/widget/ProgressBar]
+  - Class [android/widget/Toast]
+  - Class [gtug/fourth/Main]
+  - Class [gtug/fourth/c]
+  - Class [java/lang/Object]
+  - Fieldref [gtug/fourth/c.a Lgtug/fourth/Main;]
+  - Methodref [android/widget/ProgressBar.setProgress (I)V]
+  - Methodref [android/widget/ProgressBar.setVisibility (I)V]
+  - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  - Methodref [android/widget/Toast.show ()V]
+  - Methodref [gtug/fourth/Main.findViewById (I)Landroid/view/View;]
+  - Methodref [gtug/fourth/Main.getBaseContext ()Landroid/content/Context;]
+  - Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lgtug/fourth/Main;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [getBaseContext ()Landroid/content/Context;]
+  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + NameAndType [setProgress (I)V]
+  + NameAndType [setVisibility (I)V]
+  + NameAndType [show ()V]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lgtug/fourth/Main;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lgtug/fourth/Main;]
+  + Utf8 [a]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/ProgressBar]
+  + Utf8 [android/widget/Toast]
+  + Utf8 [findViewById]
+  + Utf8 [getBaseContext]
+  + Utf8 [gtug/fourth/Main]
+  + Utf8 [gtug/fourth/c]
+  + Utf8 [java/lang/Object]
+  + Utf8 [makeText]
+  + Utf8 [onClick]
+  + Utf8 [setProgress]
+  + Utf8 [setVisibility]
+  + Utf8 [show]
+  + Utf8 [¡En breve recibiras un SMS de comprobación con un código númerico!]
+
+Fields (count = 1):
+  + Field:        a Lgtug/fourth/Main;
+    Access flags: 0x1002
+      = private gtug.fourth.Main a
+
+Methods (count = 2):
+  - Method:       <init>(Lgtug/fourth/Main;)V
+    Access flags: 0x0
+      = c(gtug.fourth.Main)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        - Fieldref [gtug/fourth/c.a Lgtug/fourth/Main;]
+      [5] aload_0 v0
+      [6] invokespecial #17
+        - Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x11
+      = public final void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 41, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #10
+        - Fieldref [gtug/fourth/c.a Lgtug/fourth/Main;]
+      [4] ldc #1
+        - Integer [2131099652]
+      [6] invokevirtual #15
+        - Methodref [gtug/fourth/Main.findViewById (I)Landroid/view/View;]
+      [9] checkcast #5
+        - Class [android/widget/ProgressBar]
+      [12] dup
+      [13] astore_1 v1
+      [14] iconst_0
+      [15] invokevirtual #12
+        - Methodref [android/widget/ProgressBar.setVisibility (I)V]
+      [18] aload_1 v1
+      [19] bipush 50
+      [21] invokevirtual #11
+        - Methodref [android/widget/ProgressBar.setProgress (I)V]
+      [24] aload_0 v0
+      [25] getfield #10
+        - Fieldref [gtug/fourth/c.a Lgtug/fourth/Main;]
+      [28] invokevirtual #16
+        - Methodref [gtug/fourth/Main.getBaseContext ()Landroid/content/Context;]
+      [31] ldc #2
+        - String [¡En breve recibiras un SMS de comprobación con un código númerico!]
+      [33] iconst_1
+      [34] invokestatic #13
+        - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [37] invokevirtual #14
+        - Methodref [android/widget/Toast.show ()V]
+      [40] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: gtug/fourth/Main
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class gtug.fourth.Main extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 154):
+  - Integer [268435456]
+  - Integer [2130903041]
+  - Integer [2131099650]
+  - Integer [2131099651]
+  - String []
+  - String [ ]
+  - String [!]
+  - String [-uid-]
+  - String [000000000000000]
+  - String [phone]
+  - String [¡Bienvenido ]
+  - Class [android/app/Activity]
+  - Class [android/content/Intent]
+  - Class [android/telephony/TelephonyManager]
+  - Class [android/util/Log]
+  - Class [android/view/View]
+  - Class [android/view/View$OnClickListener]
+  - Class [android/widget/Button]
+  - Class [android/widget/Toast]
+  - Class [gtug/fourth/Error]
+  - Class [gtug/fourth/Main]
+  - Class [gtug/fourth/Yeah]
+  - Class [gtug/fourth/a]
+  - Class [gtug/fourth/b]
+  - Class [gtug/fourth/c]
+  - Class [java/lang/Integer]
+  - Class [java/lang/String]
+  - Class [java/lang/StringBuilder]
+  - Fieldref [gtug/fourth/a.a Ljava/lang/String;]
+  - Fieldref [gtug/fourth/a.b Ljava/lang/Integer;]
+  - Fieldref [gtug/fourth/a.c Landroid/content/Context;]
+  - Methodref [android/app/Activity.<init> ()V]
+  - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  - Methodref [android/content/Intent.<init> ()V]
+  - Methodref [android/content/Intent.addFlags (I)Landroid/content/Intent;]
+  - Methodref [android/content/Intent.setClass (Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+  - Methodref [android/telephony/TelephonyManager.getDeviceId ()Ljava/lang/String;]
+  - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  - Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  - Methodref [android/widget/Toast.show ()V]
+  - Methodref [gtug/fourth/Main.findViewById (I)Landroid/view/View;]
+  - Methodref [gtug/fourth/Main.finish ()V]
+  - Methodref [gtug/fourth/Main.getBaseContext ()Landroid/content/Context;]
+  - Methodref [gtug/fourth/Main.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  - Methodref [gtug/fourth/Main.setContentView (I)V]
+  - Methodref [gtug/fourth/Main.startActivity (Landroid/content/Intent;)V]
+  - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+  - Methodref [gtug/fourth/b.<init> (Lgtug/fourth/Main;)V]
+  - Methodref [gtug/fourth/c.<init> (Lgtug/fourth/Main;)V]
+  - Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+  - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lgtug/fourth/Main;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a ()Lgtug/fourth/a;]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [addFlags (I)Landroid/content/Intent;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b Ljava/lang/Integer;]
+  + NameAndType [c Landroid/content/Context;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [finish ()V]
+  + NameAndType [getBaseContext ()Landroid/content/Context;]
+  + NameAndType [getDeviceId ()Ljava/lang/String;]
+  + NameAndType [getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + NameAndType [makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setClass (Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + NameAndType [show ()V]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [valueOf (I)Ljava/lang/Integer;]
+  + NameAndType [valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 []
+  + Utf8 [ ]
+  + Utf8 [!]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Lgtug/fourth/a;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/content/Intent;]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/Integer;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+  + Utf8 [(Landroid/content/Intent;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lgtug/fourth/Main;)V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [-uid-]
+  + Utf8 [000000000000000]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Ljava/lang/Integer;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [addFlags]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/telephony/TelephonyManager]
+  + Utf8 [android/util/Log]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/Toast]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [equals]
+  + Utf8 [findViewById]
+  + Utf8 [finish]
+  + Utf8 [getBaseContext]
+  + Utf8 [getDeviceId]
+  + Utf8 [getSystemService]
+  + Utf8 [gtug/fourth/Error]
+  + Utf8 [gtug/fourth/Main]
+  + Utf8 [gtug/fourth/Yeah]
+  + Utf8 [gtug/fourth/a]
+  + Utf8 [gtug/fourth/b]
+  + Utf8 [gtug/fourth/c]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [makeText]
+  + Utf8 [onCreate]
+  + Utf8 [phone]
+  + Utf8 [setClass]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+  + Utf8 [show]
+  + Utf8 [startActivity]
+  + Utf8 [toString]
+  + Utf8 [valueOf]
+  + Utf8 [¡Bienvenido ]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public Main()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #32
+        - Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 255, locals = 2, stack = 4):
+      [0] invokestatic #48
+        - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+      [3] ldc #5
+        - String []
+      [5] putfield #29
+        - Fieldref [gtug/fourth/a.a Ljava/lang/String;]
+      [8] aload_0 v0
+      [9] aload_1 v1
+      [10] invokespecial #33
+        - Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [13] aload_0 v0
+      [14] ldc #2
+        - Integer [2130903041]
+      [16] invokevirtual #46
+        - Methodref [gtug/fourth/Main.setContentView (I)V]
+      [19] invokestatic #48
+        - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+      [22] aload_0 v0
+      [23] invokevirtual #44
+        - Methodref [gtug/fourth/Main.getBaseContext ()Landroid/content/Context;]
+      [26] putfield #31
+        - Fieldref [gtug/fourth/a.c Landroid/content/Context;]
+      [29] invokestatic #48
+        - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+      [32] bipush 13
+      [34] invokestatic #51
+        - Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [37] putfield #30
+        - Fieldref [gtug/fourth/a.b Ljava/lang/Integer;]
+      [40] aload_0 v0
+      [41] ldc #10
+        - String [phone]
+      [43] invokevirtual #45
+        - Methodref [gtug/fourth/Main.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+      [46] checkcast #14
+        - Class [android/telephony/TelephonyManager]
+      [49] invokevirtual #37
+        - Methodref [android/telephony/TelephonyManager.getDeviceId ()Ljava/lang/String;]
+      [52] astore_1 v1
+      [53] ldc #8
+        - String [-uid-]
+      [55] new #28
+        - Class [java/lang/StringBuilder]
+      [58] dup
+      [59] aload_1 v1
+      [60] invokestatic #53
+        - Methodref [java/lang/String.valueOf (Ljava/lang/Object;)Ljava/lang/String;]
+      [63] invokespecial #54
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [66] ldc #6
+        - String [ ]
+      [68] invokevirtual #55
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [71] invokevirtual #56
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [74] invokestatic #38
+        - Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [77] pop
+      [78] aload_1 v1
+      [79] ifnull +12 (target=91)
+      [82] aload_1 v1
+      [83] ldc #9
+        - String [000000000000000]
+      [85] invokevirtual #52
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [88] ifeq +39 (target=127)
+      [91] new #13
+        - Class [android/content/Intent]
+      [94] dup
+      [95] invokespecial #34
+        - Methodref [android/content/Intent.<init> ()V]
+      [98] dup
+      [99] astore_1 v1
+      [100] aload_0 v0
+      [101] invokevirtual #44
+        - Methodref [gtug/fourth/Main.getBaseContext ()Landroid/content/Context;]
+      [104] ldc #20
+        - Class [gtug/fourth/Error]
+      [106] invokevirtual #36
+        - Methodref [android/content/Intent.setClass (Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+      [109] pop
+      [110] aload_1 v1
+      [111] ldc #1
+        - Integer [268435456]
+      [113] invokevirtual #35
+        - Methodref [android/content/Intent.addFlags (I)Landroid/content/Intent;]
+      [116] pop
+      [117] aload_0 v0
+      [118] aload_1 v1
+      [119] invokevirtual #47
+        - Methodref [gtug/fourth/Main.startActivity (Landroid/content/Intent;)V]
+      [122] aload_0 v0
+      [123] invokevirtual #43
+        - Methodref [gtug/fourth/Main.finish ()V]
+      [126] return
+      [127] invokestatic #48
+        - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+      [130] getfield #29
+        - Fieldref [gtug/fourth/a.a Ljava/lang/String;]
+      [133] ldc #5
+        - String []
+      [135] invokevirtual #52
+        - Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [138] ifne +76 (target=214)
+      [141] aload_0 v0
+      [142] invokevirtual #44
+        - Methodref [gtug/fourth/Main.getBaseContext ()Landroid/content/Context;]
+      [145] new #28
+        - Class [java/lang/StringBuilder]
+      [148] dup
+      [149] ldc #11
+        - String [¡Bienvenido ]
+      [151] invokespecial #54
+        - Methodref [java/lang/StringBuilder.<init> (Ljava/lang/String;)V]
+      [154] invokestatic #48
+        - Methodref [gtug/fourth/a.a ()Lgtug/fourth/a;]
+      [157] getfield #29
+        - Fieldref [gtug/fourth/a.a Ljava/lang/String;]
+      [160] invokevirtual #55
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [163] ldc #7
+        - String [!]
+      [165] invokevirtual #55
+        - Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [168] invokevirtual #56
+        - Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [171] iconst_1
+      [172] invokestatic #40
+        - Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
+      [175] invokevirtual #41
+        - Methodref [android/widget/Toast.show ()V]
+      [178] new #13
+        - Class [android/content/Intent]
+      [181] dup
+      [182] invokespecial #34
+        - Methodref [android/content/Intent.<init> ()V]
+      [185] dup
+      [186] astore_1 v1
+      [187] aload_0 v0
+      [188] invokevirtual #44
+        - Methodref [gtug/fourth/Main.getBaseContext ()Landroid/content/Context;]
+      [191] ldc #22
+        - Class [gtug/fourth/Yeah]
+      [193] invokevirtual #36
+        - Methodref [android/content/Intent.setClass (Landroid/content/Context;Ljava/lang/Class;)Landroid/content/Intent;]
+      [196] pop
+      [197] aload_1 v1
+      [198] ldc #1
+        - Integer [268435456]
+      [200] invokevirtual #35
+        - Methodref [android/content/Intent.addFlags (I)Landroid/content/Intent;]
+      [203] pop
+      [204] aload_0 v0
+      [205] aload_1 v1
+      [206] invokevirtual #47
+        - Methodref [gtug/fourth/Main.startActivity (Landroid/content/Intent;)V]
+      [209] aload_0 v0
+      [210] invokevirtual #43
+        - Methodref [gtug/fourth/Main.finish ()V]
+      [213] return
+      [214] aload_0 v0
+      [215] ldc #3
+        - Integer [2131099650]
+      [217] invokevirtual #42
+        - Methodref [gtug/fourth/Main.findViewById (I)Landroid/view/View;]
+      [220] checkcast #18
+        - Class [android/widget/Button]
+      [223] new #25
+        - Class [gtug/fourth/c]
+      [226] dup
+      [227] aload_0 v0
+      [228] invokespecial #50
+        - Methodref [gtug/fourth/c.<init> (Lgtug/fourth/Main;)V]
+      [231] invokevirtual #39
+        - Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [234] aload_0 v0
+      [235] ldc #4
+        - Integer [2131099651]
+      [237] invokevirtual #42
+        - Methodref [gtug/fourth/Main.findViewById (I)Landroid/view/View;]
+      [240] checkcast #18
+        - Class [android/widget/Button]
+      [243] new #24
+        - Class [gtug/fourth/b]
+      [246] dup
+      [247] aload_0 v0
+      [248] invokespecial #49
+        - Methodref [gtug/fourth/b.<init> (Lgtug/fourth/Main;)V]
+      [251] invokevirtual #39
+        - Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [254] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [91] Var: ...[a:android/telephony/TelephonyManager][a:java/lang/String], Stack: (empty)
+        - [127] Var: ..., Stack: (empty)
+        - [214] Var: ..., Stack: (empty)
+        - [254] Var: ..., Stack: (empty)
+
+Class file attributes (count = 0):
+

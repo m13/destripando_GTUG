@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, gtug_2t!</string>
+    <string name="app_name">gtug_2t</string>
+    <string name="url">http://m.pirata.cat/gtug/</string>
+    <string name="warning">Esta version esta optimizada y ofuscada contra h4x0rs malotes</string>
+    <string name="entrar">Goooooooo!</string>
+    <string name="entrada">Aviso</string>
+    <string name="crash">Crash</string>
+</resources>

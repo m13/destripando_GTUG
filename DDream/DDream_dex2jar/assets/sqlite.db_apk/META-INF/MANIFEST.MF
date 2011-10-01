@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: AndroidManifest.xml
+SHA1-Digest: yeQSL7T+BCCbHYmkTHOwomcA5AQ=
+
+Name: classes.dex
+SHA1-Digest: z33a3Gu40lmYXZfitWAXmv1qpAU=
+

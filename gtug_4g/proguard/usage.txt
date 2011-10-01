@@ -1,0 +1,7 @@
+gtug.fourth.R
+gtug.fourth.R$attr
+gtug.fourth.R$color
+gtug.fourth.R$drawable
+gtug.fourth.R$id
+gtug.fourth.R$layout
+gtug.fourth.R$string

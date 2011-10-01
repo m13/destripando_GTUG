@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/Parent"
+	android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" >
+    
+	<TextView
+		android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+		android:gravity="center_horizontal"
+		android:textSize="20sp"
+		android:padding="20sp"
+		android:text="Welcome to the GTUG Barcelona HQ \n -=]pr1v4t3[=-" />
+			
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:paddingBottom="20sp"  >
+		<TextView
+			android:layout_height="wrap_content"
+	    	android:layout_width="120sp" 
+			android:gravity="center_horizontal"
+			android:textSize="16sp"
+			android:text="Móvil: " />
+		<EditText
+			android:id="@+id/num"
+			android:layout_height="wrap_content"
+	    	android:layout_width="80sp"
+	    	android:layout_weight="1"
+			android:gravity="left"
+			android:textSize="16sp"
+			android:digits="0123456789"
+			android:inputType="phone" />
+	</LinearLayout>
+	
+	<Button
+		android:id="@+id/ok"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="Enviar SMS" />
+	<Button
+		android:id="@+id/salir"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="Salir" />
+
+	<ProgressBar
+		android:id="@+id/ProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+	    android:layout_alignParentBottom="true"
+	    android:visibility="invisible" />
+</LinearLayout>

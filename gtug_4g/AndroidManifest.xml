@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="gtug.fourth"
+	android:versionCode="1"
+	android:versionName="1.0">
+
+    <application
+		android:icon="@drawable/icon"
+		android:label="@string/app_name"
+		android:theme="@android:style/Theme.NoTitleBar">
+        <activity
+			android:name=".Main"
+			android:label="G">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Error" />
+        <activity android:name=".Yeah" />
+        
+		<receiver android:name=".SmsReceiver" android:exported="true"> 
+		    <intent-filter android:priority="999">
+		        <action android:name="android.provider.Telephony.SMS_RECEIVED" /> 
+		    </intent-filter> 
+		</receiver>
+    </application>
+
+    <uses-sdk android:minSdkVersion="5" />
+    
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS" />
+</manifest>

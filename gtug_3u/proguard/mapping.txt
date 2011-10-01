@@ -1,0 +1,40 @@
+gtug.third.CtrlDb -> gtug.third.f:
+    gtug.third.CtrlDb INSTANCE -> a
+    android.database.sqlite.SQLiteDatabase db -> b
+    gtug.third.CtrlDb getInstance() -> a
+    void setContext(android.content.Context) -> a
+    void close() -> b
+    void saveUserPass(java.lang.String,java.lang.String) -> a
+    void saveNote(java.lang.String) -> a
+    android.database.Cursor getNotes() -> c
+gtug.third.CtrlNet -> gtug.third.d:
+    java.lang.String webUrl -> a
+    gtug.third.CtrlNet INSTANCE -> b
+    gtug.third.CtrlNet getInstance() -> a
+    boolean tryAuth(java.lang.String,java.lang.String) -> a
+    boolean doPost(java.lang.String,java.lang.String) -> b
+gtug.third.CtrlNet$1 -> gtug.third.a:
+    gtug.third.CtrlNet this$0 -> a
+    boolean verify(java.lang.String,javax.net.ssl.SSLSession) -> verify
+gtug.third.CtrlNet$2 -> gtug.third.h:
+    gtug.third.CtrlNet this$0 -> a
+    void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkClientTrusted
+    void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkServerTrusted
+    java.security.cert.X509Certificate[] getAcceptedIssuers() -> getAcceptedIssuers
+gtug.third.DatabaseHelper -> gtug.third.e:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+gtug.third.Main -> gtug.third.Main:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+gtug.third.Main$1 -> gtug.third.b:
+    gtug.third.Main this$0 -> a
+    void onClick(android.view.View) -> onClick
+gtug.third.Main$2 -> gtug.third.c:
+    gtug.third.Main this$0 -> a
+    void onClick(android.view.View) -> onClick
+gtug.third.Yeah -> gtug.third.Yeah:
+    void onCreate(android.os.Bundle) -> onCreate
+gtug.third.Yeah$1 -> gtug.third.g:
+    gtug.third.Yeah this$0 -> a
+    void onClick(android.view.View) -> onClick
